@@ -1,0 +1,14 @@
+# Ignorar entornos virtuales
+.venv/
+vector_store/
+*.pyc
+__pycache__/
+vector_store/
+
+# Ignorar archivos de configuración con claves API
+config.yaml
+.env
+
+# Otros archivos del sistema
+.DS_Store
+.vscode/
