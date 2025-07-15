@@ -12,3 +12,5 @@ config.yaml
 # Otros archivos del sistema
 .DS_Store
 .vscode/
+Dockerfile
+docker-compose.yml
