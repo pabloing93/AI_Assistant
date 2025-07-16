@@ -1,4 +1,4 @@
-# DocuPy Bot: Tu Asistente Experto en la Documentación de Python 🐍
+# AI Assistant: Tu Asistente IA experto en un archivo pdf 🐍
 
 Un chatbot inteligente que te permite "dialogar" con la documentación técnica de Python. En lugar de buscar manualmente, simplemente haz una pregunta y obtén respuestas precisas y contextualizadas, extraídas directamente de la fuente oficial.
 
@@ -25,7 +25,7 @@ Este proyecto utiliza un pipeline de RAG (Retrieval Augmented Generation) con La
 
 1.  **Clonar el Repositorio**
     ```bash
-    git clone https://github.com/tu-usuario/docupy-bot.git
+    git clone https://github.com/pabloing93/AI_Assistant
     cd docupy-bot
     ```
 
