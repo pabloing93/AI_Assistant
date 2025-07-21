@@ -14,4 +14,3 @@ config.yaml
 .vscode/
 Dockerfile
 docker-compose.yml
-.bashrc
