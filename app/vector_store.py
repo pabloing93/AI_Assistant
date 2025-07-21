@@ -2,6 +2,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 import yaml
 import os
+from data_loader import load_data #just for testing
 # import logging # Logging import will be removed as we are switching to print
 
 # Determine the absolute path to the directory containing the current script (vector_store.py)
@@ -80,3 +81,8 @@ def load_vector_store():
         # Using print instead of logger.error
         print(f"ERROR: Error al cargar vector store desde {VECTOR_STORE_DIR}: {str(e)}")
         return None
+
+if __name__ == '__main__':
+    data = load_data()
+    initialize_vector_store(data)
+    load_vector_store()

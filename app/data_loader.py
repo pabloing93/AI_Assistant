@@ -56,8 +56,8 @@ def load_data():
             # chunk_overlap: cuántos caracteres se solapan entre chunks consecutivos
             #                para no perder el contexto en los cortes.
             text_splitter = RecursiveCharacterTextSplitter(
-                chunk_size=1000,
-                chunk_overlap=200,
+                chunk_size=400,
+                chunk_overlap=100,
                 separators=["\n\n", "\n", " ", ""] # Intenta dividir por párrafos primero
             )
             
