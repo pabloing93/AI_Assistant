@@ -17,7 +17,7 @@ from data_loader import load_data
 from vector_store import initialize_vector_store
 
 # Configuración de la página y estilos personalizados
-st.set_page_config(page_title="DocuPy Bot", page_icon="🐍", layout="wide")
+st.set_page_config(page_title="Ayudín Bot", page_icon="😉", layout="wide")
 
 # --- LÓGICA DE INICIALIZACIÓN MEJORADA ---
 # Definir la ruta del directorio del vector store
@@ -61,26 +61,27 @@ with st.sidebar:
     st.text(f"Tokens: {st.session_state.total_tokens}")
     st.text(f"Coste (USD): ${st.session_state.total_cost_usd:.6f}")
 
-st.title("DocuPy Bot 🐍")
+st.title("Ayudín Bot 😉")
 
 # Inicializar historial en la sesión
 if "messages" not in st.session_state:
     st.session_state.messages = [{
         "role": "bot", 
-        "content": """¡Hola! Soy **DocuPy Bot**.
+        "content": """¡Hola! Soy tu asesor de Econotodo, **Ayudín**.
 
-Soy un asistente especializado en la documentación oficial de Python. Mi base de conocimientos es el documento que has cargado.
+Soy un asistente virtual especializado en asesoramiento comercial. Mi base de conocimientos es el documento que has cargado.
 
 **Puedes preguntarme sobre:**
-*   Sintaxis y uso de módulos estándar.
-*   Explicaciones de funciones y clases.
-*   Ejemplos de código que aparezcan en la documentación.
+*   Horarios de atención.
+*   Disponibilidad de productos.
+*   Promociones.
+*   Medios de pago.
 
-Simplemente escribe tu pregunta y buscaré la información más relevante para ti. ¿En qué puedo ayudarte?"""
+Preguntame lo que necesites saber y buscaré la información más relevante y actualizada para vos. ¿En qué puedo ayudarte?"""
     }]
 
 # Input del usuario
-user_input = st.chat_input("Pregunta sobre la documentación de Python...")
+user_input = st.chat_input("Hola quiero saber si tenes azucar y cuanto sale")
 
 # Procesar mensaje del usuario
 if user_input:

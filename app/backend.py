@@ -5,9 +5,14 @@ from vector_store import load_vector_store
 from langchain.prompts import PromptTemplate
 import yaml
 from prompts import SYSTEM_TEMPLATE
+import os
 
 # Cargar configuración desde config.yaml
-with open("config.yaml", "r") as file:
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# Go one level up to the project root directory
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+CONFIG_PATH = os.path.join(PROJECT_ROOT, "config.yaml")
+with open(CONFIG_PATH, "r") as file:
     config = yaml.safe_load(file)
 
 def handle_query(query, messages):
