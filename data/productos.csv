@@ -1,0 +1,501 @@
+Código;Nombre del producto;Marca;Categoría;Descripción;Precio (USD);Stock;Unidades disponibles
+B001;Azúcar 1kg;Ledesma;Alimentos;Azúcar refinada ideal para endulzar bebidas y recetas.;1.50;Stock disponible;35
+B002;Leche entera larga vida 1L;La Serenísima;Lácteos;Leche líquida UHT, fuente de calcio y proteínas.;1.20;Stock disponible;181
+B003;Arroz largo fino 1kg;Molinos Ala;Alimentos;Arroz de grano largo, perfecto para guarniciones y ensaladas.;2.00;Stock disponible;106
+B004;Aceite de girasol 900ml;Natura;Alimentos;Aceite vegetal 100% girasol, alto rendimiento y sabor suave.;2.50;Stock disponible;279
+B005;Yerba mate 1kg;Taragüi;Bebidas;Yerba mate seleccionada, sabor intenso, ideal para compartir.;3.80;Stock disponible;35
+B006;Galletitas surtidas 300g;Arcor;Alimentos;Variedad de galletitas dulces para acompañar el té o el mate.;1.10;Stock limitado;6
+B007;Harina 000 1kg;Blancaflor;Alimentos;Harina de trigo multipropósito para panificados y repostería.;1.00;Stock disponible;66
+B008;Fideos secos tipo spaghetti 500g;Lucchetti;Alimentos;Pasta seca de sémola, cocción rápida y textura ideal.;1.30;Stock disponible;74
+B009;Sal fina 500g;Refisal;Alimentos;Sal comestible para cocina diaria y condimentar a gusto.;0.70;Stock disponible;66
+B010;Huevos docena;Avícola Cabaña;Alimentos;Docena de huevos frescos, categoría A, producción local.;2.50;Stock disponible;62
+B011;Mermelada de durazno 454g;La Campagnola;Alimentos;Mermelada de fruta natural, ideal para desayunos y postres.;2.00;Stock disponible;39
+B012;Queso cremoso 500g;Ilolay;Lácteos;Queso fresco, textura suave y sabor delicado, perfecto para untar.;3.90;Stock disponible;51
+B013;Pan lactal 350g;Bimbo;Alimentos;Pan de molde suave, ideal para sándwiches y tostadas.;1.60;Stock disponible;47
+B014;Manteca 200g;Sancor;Lácteos;Manteca tradicional, sabor auténtico, perfecta para cocinar o untar.;2.10;Stock disponible;46
+B015;Dulce de leche 400g;La Serenísima;Lácteos;Dulce de leche clásico, textura cremosa y sabor intenso.;2.20;Stock disponible;134
+B016;Café molido 250g;Bonafide;Bebidas;Café tostado molido, aroma intenso y sabor equilibrado.;2.80;Stock limitado;12
+B017;Té en saquitos x25;La Virginia;Bebidas;Té negro clásico, práctico y rápido de preparar.;1.20;Stock disponible;79
+B018;Polenta 500g;Mágica;Alimentos;Harina de maíz precocida, lista en minutos, ideal para acompañar guisos.;0.90;Stock disponible;79
+B019;Lentejas secas 500g;Don Vittorio;Alimentos;Lentejas seleccionadas, ricas en proteínas y fibra.;1.50;Stock disponible;77
+B020;Garbanzos secos 500g;Lucchetti;Alimentos;Legumbre versátil para ensaladas, guisos y hummus.;1.70;Stock disponible;19
+B021;Papel higiénico hoja doble x4;Elite;Hogar;Papel higiénico doble hoja, pack económico y suave.;2.90;Stock disponible;55
+B022;Jabón de tocador x3;Dove;Cuidado personal;Jabón en barra con crema hidratante, protege y suaviza la piel.;1.60;Stock disponible;78
+B023;Shampoo hidratante 400ml;Sedal;Cuidado personal;Shampoo con vitamina E para cabello suave y brillante.;2.50;Stock disponible;78
+B024;Detergente concentrado 500ml;Magistral;Limpieza;Detergente líquido concentrado, elimina grasa difícil.;1.10;Stock disponible;75
+B025;Lavandina 1L;Ayudín;Limpieza;Lavandina líquida, desinfecta y elimina bacterias.;1.20;Stock disponible;23
+B026;Desodorante ambiente lavanda 360cc;Glade;Hogar;Desodorante aromatizante para ambientes, fragancia a lavanda.;1.40;Stock disponible;26
+B027;Toalla femenina x8;Always;Cuidado personal;Toallas femeninas con alas, máxima absorción y comodidad.;2.00;Stock disponible;51
+B028;Algodón 100g;Swiss Just;Cuidado personal;Algodón suave, ideal para higiene y cuidado de la piel.;0.80;Stock disponible;30
+B029;Paquete pañales x10;Pampers;Bebé;Pañales descartables talla M, máxima absorción y protección.;4.20;Stock limitado;21
+B030;Levadura seca 50g;Fleischmann;Alimentos;Levadura seca activa para panificados y repostería.;0.70;Stock disponible;66
+T101;Auriculares inalámbricos JBL;JBL;Tecnología;Auriculares Bluetooth 5.0 con sonido Pure Bass y batería de larga duración.;60.00;Stock disponible;43
+T102;Zapatillas running Nike;Nike;Indumentaria;Zapatillas deportivas para correr, confort y durabilidad.;80.00;Stock limitado;15
+T103;Mochila impermeable 25L;Adidas;Indumentaria;Mochila resistente al agua, ideal para estudio, trabajo o viajes.;40.00;Stock disponible;30
+T104;Smartwatch GPS Xiaomi;Xiaomi;Tecnología;Reloj inteligente con pantalla Amoled, monitoreo de actividad y GPS.;120.00;Sin stock momentáneo;0
+T105;Gafas de sol polarizadas RayBan;RayBan;Indumentaria;Lentes de sol UV400, diseño clásico y protección ocular.;95.00;Stock disponible;27
+T106;Mouse inalámbrico Logitech;Logitech;Tecnología;Mouse óptico inalámbrico, diseño ergonómico y silencioso.;15.00;Stock disponible;27
+T107;Notebook Lenovo 15.6'' 8GB RAM;Lenovo;Tecnología;Notebook con pantalla Full HD, SSD 256GB, rendimiento profesional.;450.00;Stock limitado;30
+T108;Smart TV 43'' Samsung;Samsung;Tecnología;Televisor inteligente Full HD, conectividad y streaming integrado.;380.00;Stock disponible;72
+T109;Tablet Huawei 10'' 64GB;Huawei;Tecnología;Tablet con sistema Android 11, ideal para trabajo y entretenimiento.;210.00;Stock limitado;28
+T110;Teclado mecánico RGB Redragon;Redragon;Tecnología;Teclado mecánico con retroiluminación RGB y switches blue.;35.00;Stock disponible;34
+I201;Remera básica algodón;Topper;Indumentaria;Remera 100% algodón, varios colores, cómoda para uso diario.;10.00;Stock disponible;17
+I202;Jean clásico unisex;Levi's;Indumentaria;Jean azul corte recto, para hombres y mujeres.;22.00;Stock disponible;35
+I203;Campera impermeable unisex;Montagne;Indumentaria;Campera corta viento, resistente al agua, ideal para lluvia.;35.00;Stock limitado;32
+I204;Ojotas Havaianas;Havaianas;Indumentaria;Ojotas brasileñas originales, talles 35-45, colores surtidos.;9.00;Stock disponible;35
+I205;Bufanda polar;Benetton;Indumentaria;Bufanda de micropolar, colores variados, ideal para invierno.;7.00;Stock disponible;41
+I206;Guantes lana unisex;Reusch;Indumentaria;Guantes de lana, talle único, suaves y abrigados.;6.00;Stock disponible;35
+H301;Ventilador de pie 16'' 3 vel.;Liliana;Hogar;3 velocidades, altura regulable, bajo consumo, garantía oficial.;45.00;Stock disponible;46
+H302;Estufa eléctrica 2000w;Peabody;Hogar;Estufa portátil de bajo consumo, dos niveles de calor.;38.00;Stock limitado;24
+H303;Olla Essen 24cm;Essen;Hogar;Olla de aluminio fundido, antiadherente, ideal para guisos y pastas.;90.00;Stock disponible;73
+H304;Set de cubiertos x24;Tramontina;Hogar;Set de acero inoxidable, resistente, incluye caja organizadora.;32.00;Stock disponible;54
+H305;Vaso vidrio x6 350ml;Durax;Hogar;Pack de 6 vasos de vidrio, diseño clásico, aptos lavavajillas.;12.00;Stock disponible;43
+H306;Sábanas 2 plazas;Canon;Hogar;Juego de sábanas microfibra, suaves y frescas, fácil lavado.;25.00;Stock disponible;45
+H307;Almohada 50x70cm;Suavegom;Hogar;Almohada de fibra siliconada, extra suave, soporte ergonómico.;10.00;Stock disponible;76
+H308;Cortina baño PVC;Cannon;Hogar;Cortina para baño, estampada, fácil de limpiar, antimoho.;7.00;Stock disponible;64
+H309;Lámpara LED 9w;EcoLuz;Hogar;Lámpara LED rosca E27, bajo consumo y larga duración.;3.00;Stock disponible;75
+H310;Termo acero inoxidable 1L;Stanley;Hogar;Termo ultra resistente, mantiene temperatura 24hs.;36.00;Stock limitado;20
+B057;Salsa de tomate 520g;La Campagnola;Alimentos;Salsa lista para pastas, pizzas y guisos, tomates frescos seleccionados.;1.99;Stock disponible;65
+B058;Yerba mate compuesta 1kg;CBSé;Bebidas;Yerba mate suave con hierbas naturales, perfecta para compartir.;3.70;Stock disponible;122
+B059;Leche descremada larga vida 1L;La Serenísima;Lácteos;Leche descremada UHT, fuente de calcio y proteínas, baja en grasas.;2.35;Stock disponible;153
+B060;Azúcar mascabo 500g;Ledesma;Alimentos;Azúcar integral de caña sin refinar, endulza de forma natural.;1.15;Stock disponible;264
+B061;Galletitas de agua 200g;Bagley;Alimentos;Galletitas crocantes, ligeras, ideales para desayuno y merienda.;4.68;Stock disponible;294
+B062;Shampoo hidratante 400ml;Sedal;Cuidado personal;Shampoo con vitamina E y aloe vera para todo tipo de cabello.;5.49;Stock disponible;100
+B063;Lavandina aroma lavanda 1L;Ayudín;Limpieza;Desinfectante perfumado, elimina el 99,9% de bacterias y virus.;5.10;Stock disponible;80
+B064;Detergente concentrado limón 750ml;Magistral;Limpieza;Líquido concentrado, quita grasa difícil y perfuma a limón.;5.00;Stock disponible;108
+B065;Jabón líquido para manos 300ml;Protex;Cuidado personal;Jabón antibacterial, protege y cuida la piel diariamente.;3.56;Stock disponible;72
+B066;Papel higiénico hoja doble x12;Elite;Hogar;Extra suave y resistente, pack familiar para uso diario.;2.43;Stock disponible;206
+B067;Servilletas 100u;Elite;Hogar;Paquete de 100 servilletas blancas, absorbentes y prácticas.;2.03;Stock disponible;124
+B068;Limpiador multiuso 1L;Cif;Limpieza;Líquido para pisos y superficies, fragancia fresca.;4.99;Stock disponible;69
+B069;Bizcochos de grasa 300g;Don Satur;Alimentos;Snack salado tradicional, crocante y sabroso.;5.64;Stock disponible;173
+B070;Salsa mayonesa 500g;Hellmann's;Alimentos;Mayonesa cremosa, ideal para ensaladas y sandwiches.;4.14;Stock disponible;217
+B071;Gaseosa cola 1.5L;Coca-Cola;Bebidas;Bebida gaseosa clásica, sabor original y refrescante.;1.30;Stock disponible;257
+B072;Jugo naranja 1L;Ades;Bebidas;Jugo de naranja natural, sin conservantes.;4.73;Stock disponible;191
+B073;Galletas de arroz 100g;Granix;Alimentos;Sin TACC, apto celíacos, ideales para picadas o colaciones.;4.42;Stock disponible;177
+B074;Pan rallado 500g;Noel;Alimentos;Para milanesas, croquetas y rebozados, textura perfecta.;2.11;Stock disponible;159
+B075;Atún al natural 170g;La Campagnola;Alimentos;Atún enlatado bajo en sodio, ideal para ensaladas.;4.53;Stock disponible;262
+B076;Choclo en grano 350g;Arcor;Alimentos;Choclo dulce enlatado, listo para consumir.;2.33;Stock disponible;153
+B077;Puré de tomate 520g;La Campagnola;Alimentos;Puré de tomate natural, sin aditivos.;4.40;Stock disponible;286
+B078;Crema de leche 200ml;Milkaut;Lácteos;Crema para postres, salsas o café, textura suave.;5.35;Stock disponible;93
+B079;Galletitas integrales 200g;Arcor;Alimentos;Con semillas y fibras, opción saludable para snack.;5.89;Stock disponible;155
+B080;Budin marmolado 200g;Arcor;Alimentos;Budin esponjoso con cacao, ideal para meriendas.;2.25;Stock disponible;56
+B081;Tostadas de salvado 150g;Fargo;Alimentos;Tostadas crocantes, fuente de fibra, bajas calorías.;4.99;Stock disponible;142
+B082;Manteca light 100g;Sancor;Lácteos;Menos calorías, misma cremosidad y sabor.;4.16;Stock disponible;173
+B083;Galletitas dulces rellenas 180g;Sonrisas;Alimentos;Galletas dulces con relleno de vainilla y chocolate.;5.78;Stock disponible;71
+B084;Pure instantáneo 125g;Knorr;Alimentos;Puré de papas listo en 1 minuto, práctico y sabroso.;3.05;Stock disponible;284
+B085;Tapas para empanadas 12u;La Salteña;Alimentos;Discos de masa para horno y freír, fáciles de usar.;1.07;Stock disponible;173
+B086;Crema corporal 200ml;Nivea;Cuidado personal;Hidrata en profundidad, absorción rápida y fragancia suave.;3.64;Stock disponible;57
+B087;Enjuague bucal 250ml;Colgate;Cuidado personal;Protección completa, elimina bacterias y combate el mal aliento.;2.93;Stock disponible;166
+B088;Protector solar FPS50 120ml;Bioderma;Cuidado personal;Alta protección UVA/UVB, resistente al agua.;2.98;Stock disponible;125
+B089;Alcohol en gel 500ml;Ayudín;Limpieza;Desinfectante de manos instantáneo, práctico para llevar.;5.44;Stock disponible;133
+B090;Toallas húmedas 50u;Huggies;Bebé;Suaves y resistentes, sin alcohol ni parabenos.;2.66;Stock disponible;209
+B091;Crema dental 90g;Colgate;Cuidado personal;Blanquea, fortalece el esmalte y previene caries.;2.95;Stock disponible;58
+B092;Desodorante aerosol 150ml;Rexona;Cuidado personal;Protección 48hs, fragancia fresca y duradera.;1.98;Stock disponible;180
+B093;Desodorante ambiente jazmín 360cc;Glade;Hogar;Desodorante en aerosol, neutraliza olores y perfuma.;3.14;Stock disponible;244
+B094;Roll on antitranspirante 50ml;Dove;Cuidado personal;Suave con la piel, protección y frescura todo el día.;3.26;Stock disponible;98
+B095;Repelente de insectos 170cc;Off!;Cuidado personal;Protege hasta 6hs, ideal para exteriores y niños.;2.46;Stock disponible;144
+B096;Pañuelos descartables x6;Elite;Cuidado personal;Paquetes de pañuelos suaves, resistentes y compactos.;2.77;Stock disponible;173
+B097;Algodón hidrófilo 200g;Swiss Just;Cuidado personal;Algodón extra suave, para higiene y cosmética.;5.59;Stock disponible;172
+B098;Talco desodorante 100g;Polvo Imperial;Cuidado personal;Absorbe humedad, previene irritaciones, fresco aroma.;2.87;Stock disponible;149
+B099;Curitas x10 unidades;Curitas;Cuidado personal;Bandas adhesivas hipoalergénicas, para heridas y cortes leves.;1.68;Stock disponible;252
+B100;Tapones para oídos 6u;3M;Cuidado personal;Reduce ruidos molestos, cómodos y reutilizables.;1.91;Stock disponible;137
+B101;Enjuague para ropa 900ml;Suavitel;Limpieza;Deja la ropa suave y perfumada, fragancia de larga duración.;2.60;Stock disponible;122
+B102;Jabón en polvo 800g;Ala;Limpieza;Detergente en polvo para lavarropas, máxima limpieza.;3.10;Stock disponible;79
+B103;Limpiador desinfectante 1L;Poett;Limpieza;Líquido desinfectante multiusos, aroma floral.;2.30;Stock disponible;49
+B104;Detergente lavavajillas 750ml;Axion;Limpieza;Elimina grasa difícil, aroma a limón.;1.35;Stock disponible;68
+B105;Desodorante en barra 50g;Rexona;Cuidado personal;Protección y frescura todo el día, antitranspirante.;2.00;Stock disponible;94
+B106;Alcohol etílico 500ml;Porta;Limpieza;Antiséptico y desinfectante, uso general.;1.75;Stock disponible;88
+B107;Cloro granulado 1kg;Clorotec;Limpieza;Para desinfección de agua y limpieza profunda.;4.20;Stock disponible;27
+B108;Ambientador aerosol 400ml;Poett;Hogar;Neutraliza olores y perfuma ambientes.;1.90;Stock disponible;75
+B109;Bolsa de residuos 30u;Marolio;Hogar;Bolsas resistentes para residuos, tamaño familiar.;2.15;Stock disponible;60
+B110;Escoba de plástico;Virulana;Hogar;Cerdas duraderas, ideal para pisos interiores y exteriores.;3.70;Stock disponible;25
+B111;Trapo de piso algodón;Virulana;Hogar;Trapo absorbente, apto todo tipo de superficies.;1.60;Stock disponible;53
+B112;Desodorante para piso 1L;Poett;Limpieza;Perfuma y desinfecta, fragancia marina.;2.00;Stock disponible;65
+B113;Limpiavidrios 500ml;Mr Músculo;Limpieza;Remueve manchas y deja los vidrios brillantes.;1.90;Stock disponible;49
+B114;Esponja doble acción x3;Scotch-Brite;Limpieza;Esponja para limpieza profunda sin rayar.;1.30;Stock disponible;88
+B115;Insecticida aerosol 360ml;RAID;Hogar;Elimina insectos rastreros y voladores.;4.10;Stock disponible;37
+B116;Desodorante textil 400ml;Poett;Hogar;Elimina olores de ropa y telas.;2.20;Stock disponible;28
+B117;Crema para manos 100ml;Nivea;Cuidado personal;Hidratación profunda para manos secas y agrietadas.;3.40;Stock disponible;40
+B118;Perfume femenino 50ml;Avon;Perfumería;Aroma floral, elegante y duradero.;6.70;Stock disponible;15
+B119;Perfume masculino 50ml;Axe;Perfumería;Aroma fresco y vibrante, larga duración.;6.70;Stock disponible;15
+B120;Acondicionador 400ml;Head & Shoulders;Cuidado personal;Deja el cabello suave y sin caspa.;3.20;Stock disponible;50
+B121;Gel fijador cabello 150g;Capilatis;Cuidado personal;Fijación fuerte y brillo natural.;2.60;Stock disponible;32
+B122;Desodorante roll on 50ml;Dove;Cuidado personal;Protección efectiva, cuida la piel.;2.30;Stock disponible;36
+B123;Jabón líquido corporal 250ml;Protex;Cuidado personal;Antibacterial, limpieza profunda y protección.;2.10;Stock disponible;50
+B124;Crema de afeitar 65g;La Toja;Cuidado personal;Suaviza la barba, fácil afeitado, piel protegida.;2.80;Stock disponible;27
+B125;Maquinita de afeitar x3;Prestobarba;Cuidado personal;Cuchillas dobles, afeitado preciso y seguro.;2.60;Stock disponible;33
+B126;Algodón en discos 100u;Cotton;Cuidado personal;Para desmaquillar y limpieza facial suave.;1.50;Stock disponible;52
+B127;Toallitas desmaquillantes 25u;Nivea;Cuidado personal;Remueven maquillaje e hidratan la piel.;2.70;Stock disponible;41
+B128;Crema corporal 250ml;Hinds;Cuidado personal;Con vitamina E, para todo tipo de piel.;2.40;Stock disponible;39
+B129;Protector labial 5g;Nivea;Cuidado personal;Hidrata y protege contra el sol y el frío.;1.60;Stock disponible;50
+B130;Colonia infantil 100ml;Baby Dove;Bebé;Fragancia suave y segura para bebés.;3.90;Stock disponible;26
+B131;Crema antipañalitis 100g;Hipoglós;Bebé;Protege la piel del bebé, previene irritaciones.;4.20;Stock disponible;31
+B132;Shampoo bebé 200ml;Johnson's;Bebé;No irrita los ojos, limpieza suave.;2.20;Stock disponible;42
+B133;Jabón bebé 90g;Johnson's;Bebé;Para la piel delicada del bebé, hipoalergénico.;1.20;Stock disponible;52
+B134;Toallitas húmedas 50u;Babysec;Bebé;Extra suaves, sin alcohol, cuidado especial para bebés.;2.10;Stock disponible;33
+B135;Pañales XG x20;Huggies;Bebé;Super absorbentes, sistema anti-fugas.;7.80;Stock limitado;17
+B136;Biberón 250ml;Avent;Bebé;Material libre de BPA, diseño anatómico.;4.50;Stock disponible;18
+B137;Chupete ortodóntico x2;Nuk;Bebé;Para la salud bucal del bebé, materiales seguros.;3.30;Stock disponible;24
+B138;Termómetro digital;Ové;Hogar;Medición precisa y rápida, pantalla digital.;5.20;Stock disponible;19
+B139;Alcohol en gel 100ml;Ayudín;Limpieza;Desinfectante instantáneo, práctico para llevar.;1.10;Stock disponible;55
+B140;Curitas infantiles x10;Curitas;Cuidado personal;Bandas adhesivas con diseños para niños.;1.50;Stock disponible;48
+B141;Protector solar FPS30 100ml;Biore;Cuidado personal;Protección UVA/UVB, resistente al agua.;4.30;Stock disponible;29
+B142;Crema dental infantil 60g;Colgate;Cuidado personal;Especial para niños, sabor suave, previene caries.;1.70;Stock disponible;39
+B143;Cepillo dental adulto;Oral-B;Cuidado personal;Cerdas suaves, limpieza profunda.;1.90;Stock disponible;72
+B144;Cepillo dental infantil;Oral-B;Cuidado personal;Especial para niños, cerdas suaves.;1.90;Stock disponible;66
+B145;Hilo dental 50m;Colgate;Cuidado personal;Limpieza interdental completa y suave.;2.20;Stock disponible;42
+B146;Enjuague bucal infantil 250ml;Oral-B;Cuidado personal;Sabor suave, protege dientes y encías de niños.;2.30;Stock disponible;38
+B147;Shampoo anticaspa 400ml;Head & Shoulders;Cuidado personal;Elimina la caspa y deja el cabello suave.;3.80;Stock disponible;47
+B148;Acondicionador para niños 200ml;Johnson's;Bebé;Desenreda y suaviza el cabello de los niños.;2.70;Stock disponible;23
+B149;Espuma de afeitar 200ml;La Toja;Cuidado personal;Facilita el afeitado, cuida la piel.;2.80;Stock disponible;33
+B150;Cera depilatoria 100g;Veet;Cuidado personal;Remueve el vello eficazmente, piel suave por más tiempo.;4.10;Stock disponible;22
+B151;Crema depilatoria 150ml;Veet;Cuidado personal;Elimina el vello sin dolor, piel suave.;3.90;Stock disponible;24
+B152;Pinza depilar acero;Tramontina;Cuidado personal;Precisión para depilar y dar forma.;2.00;Stock disponible;18
+B153;Algodón hidrófilo 100g;Swiss Just;Cuidado personal;Extra suave para higiene y cosmética.;1.40;Stock disponible;27
+B154;Hisopos flexibles 200u;Marolio;Cuidado personal;Para higiene diaria, extremos de algodón puro.;1.20;Stock disponible;30
+B155;Desodorante para calzado 120ml;Odex;Cuidado personal;Elimina olores y refresca el calzado.;2.30;Stock disponible;19
+B156;Limpiador dental en spray 15ml;Listerine;Cuidado personal;Frescura instantánea, elimina bacterias.;2.70;Stock disponible;21
+B157;Sales de baño 250g;Just;Cuidado personal;Relajantes, aroma lavanda, hidratan la piel.;3.20;Stock disponible;15
+B158;Mascarilla facial hidratante 1u;Garnier;Cuidado personal;Hidrata y revitaliza la piel en 15 minutos.;1.80;Stock disponible;27
+B159;Crema antiage 50ml;L'Oreal;Cuidado personal;Reduce arrugas, firmeza y luminosidad.;6.90;Stock disponible;11
+B160;Crema para pies 80g;Eucerin;Cuidado personal;Repara y suaviza la piel seca y agrietada.;3.10;Stock disponible;18
+B161;Desodorante ambiente auto 2u;Glade;Hogar;Neutraliza olores y perfuma el auto.;2.00;Stock disponible;16
+B162;Limpiador de vidrios 1L;Mr Músculo;Limpieza;Remueve manchas y deja vidrios relucientes.;2.20;Stock disponible;22
+B163;Limpiador cocina 500ml;Mr Músculo;Limpieza;Elimina grasa difícil, aroma cítrico.;2.10;Stock disponible;30
+B164;Lustra muebles 250ml;Virginia;Limpieza;Realza y protege la madera, aroma agradable.;3.20;Stock disponible;13
+B165;Desinfectante pisos 1L;Cif;Limpieza;Desinfecta y deja aroma fresco en pisos y superficies.;2.40;Stock disponible;18
+B166;Paño multiuso x3;Virulana;Limpieza;Paños absorbentes, reutilizables y resistentes.;1.70;Stock disponible;33
+B167;Trapeador con escurridor;Virulana;Hogar;Trapeador fácil de usar y limpiar, cabezal giratorio.;4.10;Stock disponible;12
+B168;Balde plástico 10L;Virulana;Hogar;Resistente y práctico para limpieza general.;3.40;Stock disponible;15
+B169;Guantes de látex x2;Virulana;Limpieza;Protegen las manos durante la limpieza, talla única.;1.60;Stock disponible;25
+B170;Detergente máquina lavavajillas 750ml;Finish;Limpieza;Potente contra grasa, brillo en vajilla.;5.10;Stock disponible;17
+B171;Pastillas lavavajillas x30;Finish;Limpieza;Tabletas para máquina, limpieza profunda.;9.90;Stock disponible;11
+B172;Sal especial lavavajillas 1kg;Finish;Limpieza;Evita sarro y mejora el lavado en máquina.;3.50;Stock disponible;8
+B173;Enjuague abrillantador 500ml;Finish;Limpieza;Brillo extra y secado rápido en vajilla.;4.30;Stock disponible;7
+B174;Limpiador inodoro gel 750ml;Harpic;Limpieza;Gel desinfectante, limpia y aromatiza.;2.40;Stock disponible;21
+B175;Pastillas para inodoro x2;Mr Músculo;Limpieza;Desinfectan, perfuman y evitan sarro.;2.10;Stock disponible;18
+B176;Limpiador sanitario en piedra x2;Odex;Limpieza;Elimina sarro, blanquea y aromatiza.;1.90;Stock disponible;20
+B177;Ambientador para placard 2u;Poett;Hogar;Perfuma y neutraliza olores en espacios pequeños.;1.60;Stock disponible;25
+B178;Desodorante para zapatos 100ml;Odex;Cuidado personal;Elimina olores y deja fragancia duradera.;2.10;Stock disponible;18
+B179;Removedor de manchas ropa 500ml;Vanis;Limpieza;Remueve manchas difíciles sin dañar tejidos.;3.30;Stock disponible;17
+B180;Jabón líquido ropa delicada 500ml;Skip;Limpieza;Especial para prendas delicadas y colores.;3.00;Stock disponible;15
+B181;Quitamanchas en barra 75g;Vanis;Limpieza;Barra práctica para manchas puntuales.;1.70;Stock disponible;19
+B182;Blanqueador ropa 1L;Ayudín;Limpieza;Deja la ropa blanca y radiante, uso seguro.;2.60;Stock disponible;18
+B183;Quitapelusas manual;Tramontina;Hogar;Remueve pelusas de ropa y tapizados.;3.90;Stock disponible;13
+B184;Pulidor de acero 300ml;Virginia;Limpieza;Brillo y protección en acero inoxidable.;2.50;Stock disponible;9
+B185;Desodorante en gel 50g;Old Spice;Cuidado personal;Protección y fragancia masculina.;2.90;Stock disponible;17
+B186;Crema corporal nutritiva 400ml;Nivea;Cuidado personal;Hidratación intensa, absorción rápida.;3.80;Stock disponible;16
+B187;Bálsamo labial 4g;Carmex;Cuidado personal;Repara labios secos y agrietados, sensación refrescante.;2.10;Stock disponible;18
+B188;Crema de manos reparadora 75ml;Eucerin;Cuidado personal;Repara y protege manos secas.;4.60;Stock disponible;13
+B189;Body splash 120ml;Violetta;Cuidado personal;Refresca y perfuma el cuerpo todo el día.;2.40;Stock disponible;22
+B190;Espejo portátil de mano;Marolio;Hogar;Ideal para viajes y uso diario, doble faz.;1.70;Stock disponible;24
+B191;Set manicura x4 piezas;Tramontina;Hogar;Incluye tijera, pinza, lima y cortauñas.;4.20;Stock disponible;8
+B192;Cortaúñas acero inoxidable;Tramontina;Cuidado personal;Precisión y durabilidad, tamaño estándar.;2.10;Stock disponible;27
+B193;Piedra pómez natural;Naturalis;Cuidado personal;Elimina durezas y suaviza los pies.;1.90;Stock disponible;15
+B194;Colonia corporal 120ml;Natura;Cuidado personal;Aroma fresco y natural para uso diario.;3.60;Stock disponible;14
+B195;Esponja vegetal;Marolio;Cuidado personal;Limpieza suave y natural para cuerpo y rostro.;1.60;Stock disponible;18
+B196;Algodón en rollo 100g;Swiss Just;Cuidado personal;Versátil para higiene y belleza.;1.30;Stock disponible;23
+B197;Desmaquillante bifásico 150ml;Garnier;Cuidado personal;Elimina maquillaje a prueba de agua, suave con la piel.;3.10;Stock disponible;15
+B198;Bálsamo after shave 100ml;Nivea;Cuidado personal;Calma la piel tras el afeitado, no irrita.;2.70;Stock disponible;13
+B199;Set baño espuma y esponja;Natura;Cuidado personal;Regalo especial para momentos de relax.;4.50;Stock disponible;7
+B200;Jabón íntimo 200ml;Protex;Cuidado personal;PH balanceado, protección y frescura diaria.;2.20;Stock disponible;21
+B201;Toallitas húmedas desinfectantes x30;Ayudín;Limpieza;Limpian y desinfectan superficies y manos, sin enjuague.;2.50;Stock disponible;37
+B202;Detergente en cápsulas x15;Skip;Limpieza;Limpieza concentrada para ropa en cápsulas individuales.;5.20;Stock disponible;19
+B203;Toallas femeninas nocturnas x8;Always;Cuidado personal;Mayor absorción y protección durante la noche.;2.30;Stock disponible;33
+B204;Pañuelos descartables x6;Elite;Cuidado personal;Suaves y resistentes para higiene diaria.;2.10;Stock disponible;46
+B205;Esponja baño corporal;Naturalis;Cuidado personal;Limpia y exfolia suavemente la piel.;1.50;Stock disponible;15
+B206;Repelente de mosquitos spray 120ml;OFF!;Cuidado personal;Protección hasta 8hs contra insectos, aroma neutro.;3.90;Stock disponible;17
+B207;Pañales P x20;Babysec;Bebé;Para recién nacidos, extra absorción y suavidad.;6.80;Stock disponible;14
+B208;Barra adhesiva 8g;Pritt;Escolar;Ideal para pegar papel y cartulina, sin manchas.;1.10;Stock disponible;42
+B209;Cuaderno tapa dura 48h;Rivadavia;Escolar;48 hojas rayadas, tapa dura, excelente calidad.;2.20;Stock disponible;27
+B210;Bolígrafo azul x2;BIC;Escolar;Tinta de secado rápido, escritura suave y continua.;1.50;Stock disponible;36
+B211;Lápiz negro x3;Faber Castell;Escolar;Mina resistente, escritura precisa y fácil borrado.;1.30;Stock disponible;31
+B212;Goma de borrar x2;Maped;Escolar;Borrado limpio sin dañar el papel.;1.10;Stock disponible;18
+B213;Regla plástica 20cm;Maped;Escolar;Flexible y resistente, medidas precisas.;1.20;Stock disponible;23
+B214;Resaltador amarillo x1;Stabilo;Escolar;Tinta fluorescente, ideal para apuntes y estudio.;1.50;Stock disponible;17
+B215;Fibra color x10;Faber Castell;Escolar;Colores intensos, punta resistente para dibujos.;2.50;Stock disponible;21
+B216;Mochila escolar 20L;Totto;Escolar;Resistente, varios compartimentos, diseño moderno.;19.00;Stock disponible;7
+B217;Lonchera térmica;Paw Patrol;Escolar;Conserva la temperatura, diseño infantil.;8.50;Stock disponible;8
+B218;Cinta adhesiva x2;Scotch;Escolar;Para manualidades y embalaje, fácil de cortar.;1.70;Stock disponible;25
+B219;Tijera punta roma;Maped;Escolar;Segura para niños, corte preciso.;1.60;Stock disponible;18
+B220;Cartuchera triple cierre;Tottenham;Escolar;Práctica y espaciosa, con tres compartimentos.;9.90;Stock disponible;6
+B221;Alfajor triple chocolate;Havanna;Alimentos;Clásico alfajor relleno con dulce de leche, bañado en chocolate.;2.60;Stock disponible;33
+B222;Galletas chocolate chip 100g;Chocolinas;Alimentos;Galletitas con chips de chocolate, crocantes y deliciosas.;1.90;Stock disponible;27
+B223;Barra de cereal x6;Granix;Alimentos;Snack saludable con cereales y miel, ideal para colaciones.;2.40;Stock disponible;44
+B224;Medialunas manteca x4;Panadería Don Juan;Alimentos;Pastelería artesanal fresca, sabor auténtico.;3.60;Stock disponible;18
+B225;Pastelitos de membrillo x6;Panadería Don Juan;Alimentos;Dulces tradicionales de hojaldre y membrillo.;2.80;Stock disponible;17
+B226;Tarta de jamón y queso porción;La Buenos Aires;Alimentos;Porción lista para consumir, masa casera.;3.50;Stock disponible;12
+B227;Sándwich miga triple x2;La Buenos Aires;Alimentos;Clásico sándwich de miga de jamón, queso y huevo.;2.90;Stock disponible;14
+B228;Budin de vainilla 200g;Arcor;Alimentos;Esponjoso y delicioso, perfecto para el mate.;2.20;Stock disponible;21
+B229;Chips de papa 120g;Lays;Alimentos;Papas fritas crocantes, sabor original.;2.50;Stock disponible;33
+B230;Palitos salados 100g;Don Satur;Alimentos;Snack salado clásico, ideal para picadas.;1.70;Stock disponible;29
+B231;Maní salado 120g;Maní King;Alimentos;Maní tostado con sal, snack energético.;2.10;Stock disponible;28
+B232;Pasas de uva 100g;Arcor;Alimentos;Fruta deshidratada, fuente natural de energía.;2.00;Stock disponible;21
+B233;Frutas secas mix 100g;Nutrilon;Alimentos;Almendras, nueces y pasas, saludable y delicioso.;3.70;Stock disponible;14
+B234;Barrita de cereal y yogur;Ser;Alimentos;Barras con yogur y cereales, bajas calorías.;2.30;Stock disponible;18
+B235;Mix frutos secos 250g;Nutrilon;Alimentos;Mezcla premium de frutos secos, sin sal.;5.40;Stock disponible;11
+B236;Granola 300g;Granix;Alimentos;Mezcla crocante de cereales, frutas y semillas.;3.10;Stock disponible;12
+B237;Tostadas de arroz integral 100g;Granix;Alimentos;Livianas y sin TACC, ideales para dietas.;2.20;Stock disponible;16
+B238;Galletas de avena 180g;Arcor;Alimentos;Galletitas dulces con avena y miel, fuente de fibra.;2.00;Stock disponible;23
+B239;Barra proteica 60g;Star Nutrition;Alimentos;Suplemento con proteínas, sabor chocolate.;3.10;Stock disponible;9
+B240;Muesli 200g;Vitalcer;Alimentos;Cereales con frutos secos, ideal para desayunos.;2.80;Stock disponible;10
+B241;Cereales azucarados 200g;Kellogg’s;Alimentos;Desayuno divertido y crocante, apto niños.;2.50;Stock disponible;22
+B242;Leche chocolatada 1L;La Serenísima;Bebidas;Leche con cacao, lista para tomar.;2.30;Stock disponible;19
+B243;Yogur bebible vainilla 900ml;Ilolay;Lácteos;Yogur líquido sabor vainilla, con probióticos.;3.10;Stock disponible;12
+B244;Yogur firme frutilla 180g;La Serenísima;Lácteos;Postre lácteo sabor frutilla, cremoso.;1.70;Stock disponible;24
+B245;Postre flan vainilla 120g;Ser;Lácteos;Postre listo para comer, bajo en calorías.;1.50;Stock disponible;16
+B246;Postre mousse chocolate 90g;Ser;Lácteos;Mousse aireada, sabor intenso a chocolate.;1.90;Stock disponible;14
+B247;Crema de leche 330g;Sancor;Lácteos;Ideal para salsas y postres, textura cremosa.;2.90;Stock disponible;11
+B248;Leche en polvo 400g;Sancor;Lácteos;Enriquecida con vitaminas, rendimiento superior.;5.40;Stock disponible;13
+B249;Flan instantáneo vainilla 70g;Exquisita;Alimentos;Postre fácil y rápido, solo agregar leche.;1.10;Stock disponible;16
+B250;Polvo para postre chocolate 70g;Exquisita;Alimentos;Para preparar postre de chocolate casero.;1.10;Stock disponible;17
+B251;Helado vainilla pote 1L;Grido;Alimentos;Helado cremoso, sabor clásico.;5.50;Stock disponible;13
+B252;Helado chocolate pote 1L;Grido;Alimentos;Helado intenso de cacao, textura suave.;5.50;Stock disponible;14
+B253;Helado frutilla pote 1L;Grido;Alimentos;Helado con pulpa de frutilla, fresco y cremoso.;5.50;Stock disponible;12
+B254;Hielo bolsas 2kg;Iceberg;Alimentos;Bolsas de hielo listo para usar, agua filtrada.;2.00;Stock disponible;20
+B255;Tarta de ricota porción;La Buenos Aires;Alimentos;Tarta dulce, suave y cremosa, lista para consumir.;3.00;Stock disponible;13
+B256;Fainá 200g;Don Vicente;Alimentos;Masa de garbanzo para acompañar pizza, lista para hornear.;2.20;Stock disponible;10
+B257;Pizza muzzarella lista 460g;Solo Pizza;Alimentos;Lista para horno, masa artesanal y muzzarella.;5.90;Stock disponible;9
+B258;Empanadas carne x6;La Salteña;Alimentos;Masa y relleno casero, listas para calentar.;4.90;Stock disponible;11
+B259;Empanadas pollo x6;La Salteña;Alimentos;Empanadas caseras, relleno de pollo.;4.90;Stock disponible;10
+B260;Milanesas de soja x4;Paty Veggie;Alimentos;Ricas en proteínas, opción vegetariana.;3.20;Stock disponible;14
+B261;Patitas de pollo x8;Granja del Sol;Alimentos;Empanadas y listas para hornear o freír.;4.60;Stock disponible;8
+B262;Pan rallado 1kg;Noel;Alimentos;Para rebozar milanesas y croquetas.;2.20;Stock disponible;16
+B263;Harina de maíz 500g;Mágica;Alimentos;Para polenta, tortas y recetas tradicionales.;1.10;Stock disponible;20
+B264;Pan integral 370g;Fargo;Alimentos;Pan saludable, alto en fibra, sin colesterol.;2.10;Stock disponible;18
+B265;Pan salvado 350g;Bimbo;Alimentos;Pan con salvado, suave y esponjoso.;2.10;Stock disponible;20
+B266;Pan para hamburguesa x6;Bimbo;Alimentos;Ideal para hamburguesas caseras, textura suave.;2.20;Stock disponible;12
+B267;Pan para panchos x6;Fargo;Alimentos;Perfecto para hot dogs y picnics.;2.20;Stock disponible;13
+B268;Tostadas integrales 150g;Fargo;Alimentos;Bajas calorías, fuente de fibra.;2.00;Stock disponible;15
+B269;Tostadas clásicas 150g;Bimbo;Alimentos;Crocantes y ligeras, para desayunos y meriendas.;2.00;Stock disponible;14
+B270;Galletitas dulces agua 200g;Bagley;Alimentos;Clásicas galletitas de agua, ideales para untar.;1.90;Stock disponible;20
+B271;Galletitas chocolate rellenas 100g;Sonrisas;Alimentos;Con crema de chocolate, tentación para chicos.;2.20;Stock disponible;18
+B272;Bizcochuelo vainilla 540g;Exquisita;Alimentos;Para preparar tortas y postres caseros.;2.80;Stock disponible;9
+B273;Bizcochuelo chocolate 540g;Exquisita;Alimentos;Mezcla lista para bizcochuelo de chocolate.;2.80;Stock disponible;10
+B274;Budin de limón 200g;Arcor;Alimentos;Esponjoso y suave, ideal para el té.;2.20;Stock disponible;11
+B275;Mermelada de frutilla 454g;La Campagnola;Alimentos;Frutilla seleccionada, sin conservantes.;2.00;Stock disponible;14
+B276;Mermelada de naranja 454g;La Campagnola;Alimentos;Fruta fresca y natural, textura artesanal.;2.00;Stock disponible;15
+B277;Mermelada de frutos rojos 454g;La Campagnola;Alimentos;Mezcla de frutos del bosque, sabor único.;2.20;Stock disponible;13
+B278;Dulce de membrillo 400g;Arcor;Alimentos;Dulce tradicional argentino, sabor intenso.;2.10;Stock disponible;17
+B279;Dulce de batata 400g;Arcor;Alimentos;Dulce suave, ideal para postres o acompañar queso.;2.10;Stock disponible;18
+B280;Dulce de leche repostero 400g;La Serenísima;Lácteos;Especial para tortas y postres.;2.60;Stock disponible;12
+B281;Leche evaporada 400g;Sancor;Lácteos;Para cocinar y preparar postres.;2.80;Stock disponible;9
+B282;Leche condensada 397g;Nestlé;Lácteos;Perfecta para postres y recetas dulces.;2.80;Stock disponible;8
+B283;Yogur descremado 180g;La Serenísima;Lácteos;Sin azúcar agregada, bajo en calorías.;1.60;Stock disponible;10
+B284;Postre arroz con leche 170g;Ilolay;Lácteos;Clásico postre listo para consumir.;1.80;Stock disponible;7
+B285;Crema para café 200ml;Ilolay;Lácteos;Le da cremosidad al café, sin cortar.;1.70;Stock disponible;11
+B286;Flan casero caramelo 150g;Ser;Lácteos;Sabor tradicional, textura suave y cremosa.;1.90;Stock disponible;8
+B287;Arroz integral 1kg;Molinos Ala;Alimentos;Rico en fibras, ideal para dietas.;2.20;Stock disponible;14
+B288;Arroz parboil 1kg;Gallo;Alimentos;No se pasa, siempre suelto, fácil de cocinar.;2.40;Stock disponible;15
+B289;Quinoa 250g;Nutrilon;Alimentos;Superalimento andino, fuente de proteínas.;3.80;Stock disponible;7
+B290;Semillas de chía 200g;Nutrilon;Alimentos;Fuente de Omega 3, para yogur, jugos o ensaladas.;2.90;Stock disponible;8
+B291;Harina integral 1kg;Blancaflor;Alimentos;Para panificados y recetas saludables.;2.20;Stock disponible;10
+B292;Harina leudante 1kg;Blancaflor;Alimentos;Ideal para tortas y bizcochuelos.;2.20;Stock disponible;9
+B293;Azúcar impalpable 500g;Ledesma;Alimentos;Para decorar tortas y postres.;2.10;Stock disponible;12
+B294;Polvo de hornear 100g;Royal;Alimentos;Leudante para pastelería y repostería.;1.30;Stock disponible;10
+B295;Esencia de vainilla 120ml;Ala;Alimentos;Para saborizar postres y bebidas.;1.60;Stock disponible;11
+B296;Cacao en polvo 100g;Nesquik;Alimentos;Ideal para leche chocolatada y postres.;2.20;Stock disponible;13
+B297;Granos de café 250g;Bonafide;Bebidas;Para moler en el momento y preparar café fresco.;3.50;Stock disponible;7
+B298;Té verde en saquitos x25;La Virginia;Bebidas;Antioxidante natural, sabor suave.;1.70;Stock disponible;15
+B299;Infusión de hierbas x20;Hierbas Serranas;Bebidas;Mezcla de hierbas digestivas, sin cafeína.;2.20;Stock disponible;11
+B300;Cacao instantáneo 400g;Chocolino;Bebidas;Para preparar bebidas chocolatadas al instante.;3.00;Stock disponible;13
+B301;Agua mineral sin gas 1.5L;Glaciar;Bebidas;Agua mineral natural, pura y refrescante.;1.10;Stock disponible;35
+B302;Agua mineral con gas 1.5L;Ser;Bebidas;Agua mineral gasificada, ideal para refrescarse.;1.20;Stock disponible;38
+B303;Gaseosa naranja 1.5L;Fanta;Bebidas;Bebida gaseosa sabor naranja, refrescante y burbujeante.;1.40;Stock disponible;51
+B304;Gaseosa lima limón 1.5L;Sprite;Bebidas;Gaseosa sabor lima limón, sin cafeína y muy refrescante.;1.40;Stock disponible;49
+B305;Gaseosa pomelo 1.5L;Schweppes;Bebidas;Gaseosa sabor pomelo, ideal para mezclas y refrescos.;1.50;Stock disponible;29
+B306;Energizante lata 473ml;Speed;Bebidas;Bebida energética para activar cuerpo y mente.;2.20;Stock disponible;32
+B307;Bebida isotónica 500ml;Gatorade;Bebidas;Hidratante, con electrolitos y sabor cítrico.;1.90;Stock disponible;27
+B308;Jugo multifruta 1L;Baggio;Bebidas;Bebida a base de jugos de frutas seleccionadas.;2.10;Stock disponible;23
+B309;Jugo manzana 1L;Ades;Bebidas;Jugo de manzana 100% natural, sin azúcar agregada.;2.20;Stock disponible;17
+B310;Néctar durazno 1L;CBC;Bebidas;Néctar espeso y dulce, fuente de vitamina C.;2.10;Stock disponible;16
+B311;Agua saborizada limón 1.5L;Levité;Bebidas;Agua baja en calorías, sabor a limón.;1.30;Stock disponible;18
+B312;Agua saborizada pomelo 1.5L;Levité;Bebidas;Agua saborizada, ligera y sin azúcar.;1.30;Stock disponible;15
+B313;Bebida vegetal almendra 1L;Silk;Bebidas;Alternativa a la leche, sin lactosa ni gluten.;2.90;Stock disponible;10
+B314;Bebida vegetal soja 1L;Ades;Bebidas;Bebida vegetal fuente de proteínas, sin lactosa.;2.80;Stock disponible;12
+B315;Bebida vegetal avena 1L;Silk;Bebidas;Sabor suave, ideal para desayunos saludables.;2.90;Stock disponible;9
+B316;Bebida vegetal coco 1L;Ades;Bebidas;Refrescante y liviana, apta veganos.;2.90;Stock disponible;11
+B317;Vino tinto Malbec 750ml;Trapiche;Bebidas;Vino argentino de calidad, ideal para carnes.;4.50;Stock disponible;28
+B318;Vino blanco Torrontés 750ml;Norton;Bebidas;Vino frutado, perfecto para aperitivos.;4.40;Stock disponible;17
+B319;Cerveza rubia 1L;Quilmes;Bebidas;Cerveza lager argentina, fresca y liviana.;2.60;Stock disponible;30
+B320;Cerveza negra lata 473ml;Imperial;Bebidas;Cerveza de sabor intenso y notas tostadas.;2.40;Stock disponible;19
+B321;Cerveza IPA lata 473ml;Patagonia;Bebidas;Cerveza artesanal, sabor lupulado y fresco.;2.70;Stock disponible;14
+B322;Aperitivo Fernet 750ml;Branca;Bebidas;Bebida alcohólica herbal, ideal para cócteles.;6.20;Stock disponible;11
+B323;Aperitivo Americano 950ml;Cinzano;Bebidas;Perfecto para tragos y aperitivos.;5.90;Stock disponible;8
+B324;Whisky escocés 750ml;Johnnie Walker;Bebidas;Whisky premium, notas ahumadas y frutales.;18.00;Stock disponible;6
+B325;Gin London Dry 750ml;Bombay Sapphire;Bebidas;Gin de calidad superior, ideal para gin tonic.;14.50;Stock disponible;5
+B326;Vodka importado 750ml;Absolut;Bebidas;Suave y cristalino, ideal para tragos y cócteles.;13.90;Stock disponible;7
+B327;Licor de crema 750ml;Baileys;Bebidas;Licor cremoso, sabor a whisky y chocolate.;12.50;Stock disponible;4
+B328;Sidra 720ml;Real;Bebidas;Bebida tradicional para brindar en fiestas.;3.50;Stock disponible;15
+B329;Aperitivo Gancia 950ml;Gancia;Bebidas;Bebida herbal, perfecta para tragos refrescantes.;5.60;Stock disponible;12
+B330;Aceitunas verdes descarozadas 200g;Nucete;Alimentos;Aceitunas seleccionadas, ideales para picadas.;2.90;Stock disponible;19
+B331;Pickles en vinagre 350g;La Colina;Alimentos;Mezcla de verduras en vinagre, sabor agridulce.;3.20;Stock disponible;9
+B332;Tomates secos 100g;La Colina;Alimentos;Tomates deshidratados, perfectos para pizzas y pastas.;2.80;Stock disponible;7
+B333;Chorizo parrillero x4;Paladini;Alimentos;Clásico argentino, listo para asar.;5.20;Stock disponible;13
+B334;Morcilla x2;Paladini;Alimentos;Morcilla tradicional, suave y especiada.;3.60;Stock disponible;8
+B335;Salchichas viena x6;Paladini;Alimentos;Para panchos, rápidas de preparar.;2.20;Stock disponible;14
+B336;Salame milán 200g;Paladini;Alimentos;Salame curado, sabor intenso.;4.50;Stock disponible;10
+B337;Jamón cocido feteado 200g;Paladini;Alimentos;Jamón cocido de primera calidad.;4.10;Stock disponible;13
+B338;Queso cremoso 500g;Ilolay;Lácteos;Ideal para picadas, sandwiches o cocinar.;5.20;Stock disponible;15
+B339;Queso rallado 50g;La Paulina;Lácteos;Para pastas y gratinados, sabor intenso.;2.10;Stock disponible;19
+B340;Queso pategrás 300g;Ilolay;Lácteos;Queso semiduro, sabor suave, para tablas y picadas.;5.90;Stock disponible;9
+B341;Manteca tradicional 200g;Sancor;Lácteos;Ideal para cocinar, untar o repostería.;2.60;Stock disponible;14
+B342;Crema para batir 360g;Sancor;Lácteos;Textura ideal para postres y tortas.;3.50;Stock disponible;11
+B343;Yogur natural 180g;Ser;Lácteos;Sin azúcar agregada, fuente de probióticos.;1.80;Stock disponible;16
+B344;Leche deslactosada 1L;Ilolay;Lácteos;Especial para intolerantes a la lactosa.;2.50;Stock disponible;9
+B345;Leche vegetal almendra 1L;Silk;Bebidas;Alternativa vegana, sin gluten ni lactosa.;2.90;Stock disponible;7
+B346;Leche vegetal avena 1L;Silk;Bebidas;Sabor suave y cremosa, ideal para dietas veganas.;2.90;Stock disponible;8
+B347;Yogur griego natural 120g;La Serenísima;Lácteos;Textura cremosa, alto en proteínas.;2.10;Stock disponible;6
+B348;Postre tiramisú 100g;Ser;Lácteos;Postre listo para comer, sabor clásico italiano.;2.50;Stock disponible;8
+B349;Postre dulce de leche 120g;Ser;Lácteos;Postre lácteo, cremoso y sabroso.;2.10;Stock disponible;10
+B350;Helado dulce de leche 1L;Grido;Alimentos;Helado cremoso con salsa de dulce de leche.;5.50;Stock disponible;11
+B351;Helado crema americana 1L;Grido;Alimentos;Clásico sabor crema americana, suave y delicioso.;5.50;Stock disponible;10
+B352;Helado limón 1L;Grido;Alimentos;Refrescante sabor cítrico, ideal para verano.;5.50;Stock disponible;8
+B353;Sandwich helado x4;Grido;Alimentos;Postre individual, galletita y helado.;4.40;Stock disponible;14
+B354;Alfajor marplatense x6;Havanna;Alimentos;Clásico alfajor con dulce de leche, bañado en chocolate.;7.90;Stock disponible;11
+B355;Churros rellenos x6;Panadería Don Juan;Alimentos;Churros rellenos con dulce de leche.;5.50;Stock disponible;7
+B356;Facturas mixtas x12;Panadería Don Juan;Alimentos;Variedad de facturas frescas y artesanales.;8.50;Stock disponible;10
+B357;Pan francés 1kg;Panadería Don Juan;Alimentos;Pan fresco del día, corteza crocante.;2.20;Stock disponible;17
+B358;Pan integral con semillas 370g;Fargo;Alimentos;Pan rico en fibras y semillas.;2.60;Stock disponible;12
+B359;Pan de salvado 370g;Bimbo;Alimentos;Ideal para sandwiches saludables.;2.60;Stock disponible;10
+B360;Focaccia 200g;Panadería Don Juan;Alimentos;Pan italiano con aceite de oliva y hierbas.;3.10;Stock disponible;8
+B361;Bizcochuelo marmolado 540g;Exquisita;Alimentos;Mezcla para bizcochuelo de vainilla y chocolate.;2.80;Stock disponible;11
+B362;Galletitas dulces sabor limón 120g;Sonrisas;Alimentos;Con relleno suave y sabor cítrico.;2.10;Stock disponible;12
+B363;Palmeritas 200g;Arcor;Alimentos;Pastelería dulce, crocante y deliciosa.;2.50;Stock disponible;10
+B364;Galletas de vainilla 100g;Chocolinas;Alimentos;Galletitas sabor vainilla, ideales para mate.;2.00;Stock disponible;11
+B365;Barra de cereal chocolate 25g;Granix;Alimentos;Snack energético, sabor a chocolate.;1.10;Stock disponible;9
+B366;Budín de chocolate 200g;Arcor;Alimentos;Esponjoso, con chips de chocolate.;2.20;Stock disponible;10
+B367;Tostadas integrales sin sal 150g;Fargo;Alimentos;Bajas en sodio, aptas para hipertensos.;2.10;Stock disponible;12
+B368;Arvejas secas 500g;Don Vittorio;Alimentos;Ideales para guisos, sopas o ensaladas.;1.90;Stock disponible;13
+B369;Garbanzos cocidos 350g;Lucchetti;Alimentos;Listos para consumir, fuente de proteínas.;2.30;Stock disponible;11
+B370;Lentejas cocidas 350g;Lucchetti;Alimentos;Prácticas y listas, ricas en hierro y fibra.;2.30;Stock disponible;10
+B371;Porotos alubia 500g;Don Vittorio;Alimentos;Para guisos, ensaladas o milanesas.;2.20;Stock disponible;8
+B372;Mix legumbres 350g;Lucchetti;Alimentos;Variedad de legumbres listas para servir.;2.40;Stock disponible;7
+B373;Arroz primavera 200g;Lucchetti;Alimentos;Arroz con verduras deshidratadas, listo en minutos.;1.90;Stock disponible;12
+B374;Arroz para sushi 500g;Yama Sushi;Alimentos;Grano corto, ideal para sushi y cocina oriental.;3.40;Stock disponible;5
+B375;Salsa teriyaki 250ml;Kikkoman;Alimentos;Auténtica salsa japonesa para salteados y marinados.;4.10;Stock disponible;6
+B376;Salsa de soja 250ml;Kikkoman;Alimentos;Clásica salsa asiática, baja en sodio.;2.80;Stock disponible;7
+B377;Wasabi en pasta 43g;Blue Dragon;Alimentos;Pasta picante tradicional para sushi.;3.20;Stock disponible;3
+B378;Algas nori para sushi x10;Noriten;Alimentos;Láminas de alga para preparar sushi.;4.50;Stock disponible;4
+B379;Pan pita x4;Panadería Don Juan;Alimentos;Pan plano tradicional, ideal para shawarma.;2.40;Stock disponible;8
+B380;Pan árabe x6;Panadería Don Juan;Alimentos;Suave, sin corteza, para wraps y snacks.;2.50;Stock disponible;9
+B381;Harina de garbanzo 500g;Nutrilon;Alimentos;Ideal para fainá, tortillas y recetas veganas.;2.10;Stock disponible;5
+B382;Polenta precocida 500g;Mágica;Alimentos;Para acompañar carnes y guisos.;1.40;Stock disponible;10
+B383;Fideos integrales 500g;Lucchetti;Alimentos;Con trigo integral, ricos en fibras.;2.20;Stock disponible;7
+B384;Fideos al huevo 500g;Don Vicente;Alimentos;Fideos tradicionales, textura casera.;2.10;Stock disponible;8
+B385;Ñoquis de papa 500g;Don Vicente;Alimentos;Pastas frescas listas para hervir.;2.80;Stock disponible;7
+B386;Ravioles ricota y nuez 500g;Don Vicente;Alimentos;Pastas rellenas, sabrosas y nutritivas.;3.90;Stock disponible;6
+B387;Canelones espinaca y ricota 500g;Don Vicente;Alimentos;Pastas listas para hornear, relleno suave.;3.90;Stock disponible;5
+B388;Tallarines frescos 500g;Don Vicente;Alimentos;Ideales para salsas y guisos.;2.80;Stock disponible;9
+B389;Sorrentinos jamón y queso 500g;Don Vicente;Alimentos;Rellenos generosos, textura artesanal.;4.20;Stock disponible;4
+B390;Pan rallado con perejil 500g;Noel;Alimentos;Ideal para milanesas saborizadas.;2.20;Stock disponible;7
+B391;Tapas para pascualina x2;La Salteña;Alimentos;Masa lista para tartas y pascualinas.;2.10;Stock disponible;9
+B392;Tapas para empanadas horno x12;La Salteña;Alimentos;Discos de masa para empanadas al horno.;2.00;Stock disponible;10
+B393;Tapas para empanadas fritas x12;La Salteña;Alimentos;Discos de masa especial para fritura.;2.00;Stock disponible;8
+B394;Mantecol 110g;Georgalos;Alimentos;Dulce típico argentino a base de maní.;2.50;Stock disponible;12
+B395;Turrón blando 100g;Georgalos;Alimentos;Turrón de maní, suave y dulce.;2.20;Stock disponible;10
+B396;Turrón duro 100g;Georgalos;Alimentos;Crocante, clásico de las fiestas.;2.20;Stock disponible;8
+B397;Barra de cereal manzana 25g;Granix;Alimentos;Snack energético sabor manzana.;1.10;Stock disponible;7
+B398;Bizcocho dulce 120g;Arcor;Alimentos;Bizcocho tierno y sabroso para la merienda.;1.80;Stock disponible;9
+B399;Alfajor de maicena x3;Havanna;Alimentos;Con dulce de leche y coco rallado.;3.90;Stock disponible;11
+B400;Chocotorta porción;Panadería Don Juan;Alimentos;Postre frío a base de galletitas y dulce de leche.;3.80;Stock disponible;10
+B401;Empanadas jamón y queso x6;La Salteña;Alimentos;Empanadas listas para hornear, relleno cremoso.;4.90;Stock disponible;11
+B402;Empanadas capresse x6;La Salteña;Alimentos;Empanadas de tomate, mozzarella y albahaca.;4.90;Stock disponible;8
+B403;Medallones de pollo x4;Granja del Sol;Alimentos;Rebozados, listos para horno o sartén.;4.40;Stock disponible;9
+B404;Medallones de merluza x4;Granja del Sol;Alimentos;Pescado rebozado, fácil de preparar.;4.80;Stock disponible;7
+B405;Filet de merluza 500g;Pesquera Patagónica;Alimentos;Filetes frescos y despinados, congelados.;6.20;Stock disponible;6
+B406;Calamares en anillos 400g;Pesquera Patagónica;Alimentos;Anillas limpias, listas para freír.;6.70;Stock disponible;5
+B407;Camarones pelados 300g;Pesquera Patagónica;Alimentos;Camarones sin piel ni cabeza, para ensaladas y pastas.;7.40;Stock disponible;5
+B408;Medallones de espinaca x4;Paty Veggie;Alimentos;Rebozados, opción vegetariana y saludable.;3.70;Stock disponible;6
+B409;Hamburguesas de carne x4;Paty;Alimentos;Hamburguesas clásicas, ideales para asar o sartén.;5.20;Stock disponible;10
+B410;Hamburguesas de pollo x4;Granja del Sol;Alimentos;Opción más ligera, listas para cocinar.;4.60;Stock disponible;9
+B411;Pan de hamburguesa x6;Bimbo;Alimentos;Suave y aireado, perfecto para burgers caseras.;2.20;Stock disponible;11
+B412;Pan de pancho x6;Fargo;Alimentos;Ideal para panchos y snacks.;2.20;Stock disponible;12
+B413;Salsa ketchup 400g;Heinz;Alimentos;Clásica salsa de tomate para aderezar comidas.;2.10;Stock disponible;15
+B414;Salsa mostaza 200g;Heinz;Alimentos;Mostaza amarilla, sabor intenso y cremoso.;1.80;Stock disponible;13
+B415;Salsa golf 200g;La Campagnola;Alimentos;Aderezo clásico para ensaladas y picadas.;2.00;Stock disponible;11
+B416;Mayonesa light 500g;Hellmann’s;Alimentos;Menos calorías, sabor tradicional.;2.30;Stock disponible;9
+B417;Salsa barbacoa 250g;Hellmann’s;Alimentos;Sabor ahumado y dulce, ideal para carnes.;2.60;Stock disponible;7
+B418;Salsa cheddar 250g;Milkaut;Alimentos;Para nachos, papas y snacks.;2.60;Stock disponible;8
+B419;Salsa criolla 200g;La Campagnola;Alimentos;Aderezo típico argentino, fresco y sabroso.;2.10;Stock disponible;11
+B420;Salsa chimichurri 200g;La Campagnola;Alimentos;Clásica para carnes a la parrilla.;2.10;Stock disponible;10
+B421;Sal gruesa parrillera 1kg;Refisal;Alimentos;Especial para asados y parrillas.;1.50;Stock disponible;16
+B422;Ají molido 50g;Marolio;Alimentos;Especias para dar sabor y picor a tus comidas.;1.20;Stock disponible;13
+B423;Pimienta negra molida 50g;Marolio;Alimentos;Sabor intenso, imprescindible en la cocina.;1.30;Stock disponible;12
+B424;Orégano 20g;Marolio;Alimentos;Hierba seca, ideal para pizzas y salsas.;1.10;Stock disponible;11
+B425;Laurel en hojas 10g;Marolio;Alimentos;Para aromatizar guisos y sopas.;1.10;Stock disponible;9
+B426;Comino molido 30g;Marolio;Alimentos;Especia aromática, perfecta para carnes y empanadas.;1.10;Stock disponible;10
+B427;Canela en polvo 30g;Marolio;Alimentos;Para postres y repostería, sabor y aroma intenso.;1.20;Stock disponible;11
+B428;Puré de tomate 520g;La Campagnola;Alimentos;Puré natural, sin aditivos ni conservantes.;1.90;Stock disponible;13
+B429;Tomate triturado 520g;La Campagnola;Alimentos;Salsa básica para pastas y guisos.;2.00;Stock disponible;12
+B430;Choclo cremoso 350g;Arcor;Alimentos;Choclo dulce en crema, listo para servir.;2.30;Stock disponible;9
+B431;Espárragos en conserva 330g;La Colina;Alimentos;Espárragos tiernos, ideales para ensaladas y entradas.;3.20;Stock disponible;7
+B432;Palmitos en conserva 400g;La Colina;Alimentos;Palmitos seleccionados, textura suave.;3.90;Stock disponible;8
+B433;Alcauciles en conserva 330g;La Colina;Alimentos;Alcauciles tiernos, listos para consumir.;3.80;Stock disponible;5
+B434;Guisantes en conserva 350g;Arcor;Alimentos;Guisantes tiernos, listos para ensaladas y guisos.;2.10;Stock disponible;10
+B435;Champiñones en conserva 330g;La Colina;Alimentos;Champiñones enteros, perfectos para pizzas y ensaladas.;3.10;Stock disponible;7
+B436;Sardinas en aceite 125g;La Campagnola;Alimentos;Pescado en conserva, rico en Omega 3.;2.40;Stock disponible;8
+B437;Anchoas en aceite 50g;Nardín;Alimentos;Filetes de anchoa, sabor intenso.;3.90;Stock disponible;5
+B438;Atún en aceite 170g;La Campagnola;Alimentos;Filetes de atún en conserva, bajos en sodio.;2.80;Stock disponible;12
+B439;Atún al natural 170g;La Campagnola;Alimentos;Conserva saludable, bajo en grasa.;2.60;Stock disponible;11
+B440;Bacalao desmenuzado 200g;La Colina;Alimentos;Ideal para empanadas y guisos.;4.80;Stock disponible;4
+B441;Melva en aceite 125g;Isabel;Alimentos;Pescado azul, fuente de ácidos grasos esenciales.;2.90;Stock disponible;5
+B442;Caldo de pollo x6;Knorr;Alimentos;Tabletas para preparar caldos y sopas.;1.80;Stock disponible;18
+B443;Caldo de verdura x6;Knorr;Alimentos;Sabor intenso, sin conservantes.;1.80;Stock disponible;15
+B444;Caldo de carne x6;Knorr;Alimentos;Realza el sabor de guisos y sopas.;1.80;Stock disponible;13
+B445;Sopa crema de choclo 70g;Knorr;Alimentos;Fácil y rápida, sabor casero.;1.50;Stock disponible;14
+B446;Sopa crema de zapallo 70g;Knorr;Alimentos;Sabor suave, lista en minutos.;1.50;Stock disponible;13
+B447;Sopa crema de cebolla 70g;Knorr;Alimentos;Textura cremosa, sabor intenso.;1.50;Stock disponible;11
+B448;Puré instantáneo papas 125g;Knorr;Alimentos;Rápido de preparar, textura casera.;1.60;Stock disponible;14
+B449;Puré instantáneo calabaza 125g;Knorr;Alimentos;Práctico, sabor natural y suave.;1.60;Stock disponible;12
+B450;Polenta lista en 1 min 500g;Mágica;Alimentos;Para comidas rápidas, textura perfecta.;1.10;Stock disponible;10
+B451;Crema pastelera 400g;Exquisita;Alimentos;Preparado para repostería, fácil y sabroso.;2.30;Stock disponible;9
+B452;Postre instantáneo vainilla 70g;Exquisita;Alimentos;Postre en polvo, sólo agregar leche.;1.10;Stock disponible;10
+B453;Postre instantáneo chocolate 70g;Exquisita;Alimentos;Sabor intenso, práctico y delicioso.;1.10;Stock disponible;9
+B454;Polvo para bizcochuelo 540g;Exquisita;Alimentos;Mezcla lista para preparar bizcochuelo.;2.80;Stock disponible;11
+B455;Chocolatada en polvo 400g;Nesquik;Bebidas;Para preparar leche chocolatada, enriquecido con vitaminas.;3.10;Stock disponible;15
+B456;Café instantáneo 170g;Nescafé;Bebidas;Práctico, sabor y aroma intensos.;4.20;Stock disponible;13
+B457;Café en cápsulas x10;Dolce Gusto;Bebidas;Para cafeteras automáticas, variedad de sabores.;5.80;Stock disponible;7
+B458;Té negro en saquitos x25;La Virginia;Bebidas;Sabor intenso, perfecto para el desayuno.;1.20;Stock disponible;16
+B459;Té saborizado frutos rojos x25;La Virginia;Bebidas;Mezcla aromática de té y frutos del bosque.;1.40;Stock disponible;12
+B460;Infusión manzanilla x20;Hierbas Serranas;Bebidas;Calmante natural, ideal para relajarse.;1.80;Stock disponible;10
+B461;Infusión boldo x20;Hierbas Serranas;Bebidas;Ayuda digestiva, sabor amargo y refrescante.;1.80;Stock disponible;8
+B462;Infusión tilo x20;Hierbas Serranas;Bebidas;Relajante, ideal para el descanso.;1.80;Stock disponible;7
+B463;Infusión menta x20;Hierbas Serranas;Bebidas;Refrescante y digestiva, sabor intenso.;1.80;Stock disponible;8
+B464;Galletitas integrales semillas 200g;Granix;Alimentos;Con semillas y fibras, snack saludable.;2.30;Stock disponible;11
+B465;Bizcochos integrales 200g;Granix;Alimentos;Snack crocante, bajo en grasas.;2.30;Stock disponible;12
+B466;Barra de cereal frutos rojos 25g;Granix;Alimentos;Snack energético sabor frutos rojos.;1.10;Stock disponible;9
+B467;Barra de cereal yogur 25g;Granix;Alimentos;Snack energético sabor yogur.;1.10;Stock disponible;8
+B468;Galletitas dulces coco 120g;Sonrisas;Alimentos;Con ralladura de coco, suaves y deliciosas.;2.10;Stock disponible;10
+B469;Galletitas dulces chocolate 120g;Sonrisas;Alimentos;Con chips de chocolate, crocantes.;2.10;Stock disponible;10
+B470;Pastillas de menta 30g;DRFRESH;Alimentos;Refrescan el aliento, ideales para llevar.;1.20;Stock disponible;12
+B471;Goma de mascar x20;Beldent;Alimentos;Sabor a menta, sin azúcar.;1.80;Stock disponible;11
+B472;Caramelos surtidos 100g;Arcor;Alimentos;Caramelos duros y blandos de varios sabores.;2.00;Stock disponible;15
+B473;Chicles rellenos frutales x20;Beldent;Alimentos;Chicles blandos con relleno frutal.;2.10;Stock disponible;13
+B474;Caramelos masticables 100g;Arcor;Alimentos;Caramelos suaves y deliciosos, varios sabores.;2.00;Stock disponible;12
+B475;Pastillas de anís 30g;DRFRESH;Alimentos;Pastillas digestivas, sabor anís intenso.;1.20;Stock disponible;10
+B476;Golosinas surtidas 150g;Arcor;Alimentos;Mezcla de caramelos, chicles y gomitas.;2.30;Stock disponible;11
+B477;Chocolates en mini barra 100g;Arcor;Alimentos;Mini barras de chocolate con leche.;3.20;Stock disponible;12
+B478;Chocolate con almendras 80g;Arcor;Alimentos;Chocolate con leche y almendras tostadas.;3.40;Stock disponible;8
+B479;Chocolate negro 70% 80g;Arcor;Alimentos;Chocolate amargo, alto porcentaje de cacao.;3.40;Stock disponible;7
+B480;Tableta de chocolate blanco 80g;Arcor;Alimentos;Chocolate blanco suave y cremoso.;3.40;Stock disponible;7
+B481;Turrón de maní 100g;Georgalos;Alimentos;Turrón clásico de maní, dulce y crocante.;2.10;Stock disponible;10
+B482;Mantecol clásico 110g;Georgalos;Alimentos;Dulce tradicional a base de maní.;2.50;Stock disponible;11
+B483;Barra de cereal banana 25g;Granix;Alimentos;Snack energético sabor banana.;1.10;Stock disponible;9
+B484;Barra de cereal coco 25g;Granix;Alimentos;Snack energético sabor coco.;1.10;Stock disponible;9
+B485;Barra proteica frutos secos 60g;Star Nutrition;Alimentos;Suplemento de proteínas, frutos secos y semillas.;3.10;Stock disponible;6
+B486;Barra proteica yogur 60g;Star Nutrition;Alimentos;Con yogur natural y cereales integrales.;3.10;Stock disponible;6
+B487;Frutas desecadas mix 100g;Nutrilon;Alimentos;Mezcla de damascos, ciruelas y peras.;3.20;Stock disponible;8
+B488;Ciruelas desecadas 100g;Nutrilon;Alimentos;Fibra natural, snack saludable.;2.80;Stock disponible;7
+B489;Damascos desecados 100g;Nutrilon;Alimentos;Dulces y suaves, ricos en fibra.;2.80;Stock disponible;7
+B490;Peras desecadas 100g;Nutrilon;Alimentos;Fruta deshidratada, ideal para colaciones.;2.80;Stock disponible;7
+B491;Nueces peladas 100g;Nutrilon;Alimentos;Fruto seco, fuente de Omega 3.;4.20;Stock disponible;8
+B492;Almendras 100g;Nutrilon;Alimentos;Fruto seco, alto contenido de proteínas y grasas saludables.;4.80;Stock disponible;6
+B493;Maní japonés 120g;Maní King;Alimentos;Snack crocante, recubierto saborizado.;2.20;Stock disponible;9
+B494;Semillas de girasol 100g;Nutrilon;Alimentos;Snack saludable y energético.;2.30;Stock disponible;8
+B495;Pasas rubias 100g;Arcor;Alimentos;Fruta deshidratada, sabor suave.;2.00;Stock disponible;7
+B496;Pasas negras 100g;Arcor;Alimentos;Fruta deshidratada, sabor intenso.;2.00;Stock disponible;6
+B497;Harina de almendras 200g;Nutrilon;Alimentos;Para repostería y recetas saludables.;5.90;Stock disponible;4
+B498;Harina de coco 200g;Nutrilon;Alimentos;Baja en carbohidratos, para recetas dulces.;5.90;Stock disponible;3
+B499;Levadura seca 100g;Fleischmann;Alimentos;Ideal para panificados y masas.;1.70;Stock disponible;10
+B500;Polvo para hornear 200g;Royal;Alimentos;Leudante para repostería y panadería.;2.10;Stock disponible;11

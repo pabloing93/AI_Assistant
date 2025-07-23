@@ -18,7 +18,7 @@ with open(CONFIG_PATH, "r") as file:
 def handle_query(query, messages):
     # 1. CONFIGURACIÓN DEL LLM
     llm = ChatOpenAI(
-        model="gpt-3.5-turbo",
+        model="gpt-4.1-mini",
         temperature=0.7,
         openai_api_key=config["openai_api_key"]
     )

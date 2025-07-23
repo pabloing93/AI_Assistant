@@ -17,7 +17,7 @@ from data_loader import load_data
 from vector_store import initialize_vector_store
 
 # Configuración de la página y estilos personalizados
-st.set_page_config(page_title="Ayudín Bot", page_icon="😉", layout="wide")
+st.set_page_config(page_title="Ayudín Bot", page_icon="🤖", layout="wide")
 
 # --- LÓGICA DE INICIALIZACIÓN MEJORADA ---
 # Definir la ruta del directorio del vector store
@@ -61,15 +61,15 @@ with st.sidebar:
     st.text(f"Tokens: {st.session_state.total_tokens}")
     st.text(f"Coste (USD): ${st.session_state.total_cost_usd:.6f}")
 
-st.title("Ayudín Bot 😉")
+st.title("Ayudín Bot 🤖")
 
 # Inicializar historial en la sesión
 if "messages" not in st.session_state:
     st.session_state.messages = [{
         "role": "bot", 
-        "content": """¡Hola! Soy tu asesor de Econotodo, **Ayudín**.
+        "content": """¡Hola! Soy **Ayudín**, tu asesor virtual de Econotodo.
 
-Soy un asistente virtual especializado en asesoramiento comercial. Mi base de conocimientos es el documento que has cargado.
+Mi base de conocimientos está basado en información comercial actualizada.
 
 **Puedes preguntarme sobre:**
 *   Horarios de atención.
@@ -77,7 +77,7 @@ Soy un asistente virtual especializado en asesoramiento comercial. Mi base de co
 *   Promociones.
 *   Medios de pago.
 
-Preguntame lo que necesites saber y buscaré la información más relevante y actualizada para vos. ¿En qué puedo ayudarte?"""
+¿En qué puedo ayudarte?"""
     }]
 
 # Input del usuario
