@@ -122,8 +122,9 @@ if "messages" not in st.session_state:
 Mi base de conocimientos está basado en información comercial actualizada.
 
 **Puedes preguntarme sobre:**
+*   Que productos vendemos.
+*   Si hay stock.
 *   Horarios de atención.
-*   Disponibilidad de productos.
 *   Promociones.
 *   Medios de pago.
 
@@ -138,30 +139,42 @@ else:
 
 # Procesar mensaje del usuario
 if user_input:
-
     if st.session_state.awaiting_whatsapp:
         # Validate WhatsApp number
         if validate_whatsapp_number(user_input.strip()):
             # Send WhatsApp message to admin
+            wapp_message = f"""[Ayudín BOT]
+                No pude responder una consulta de un cliente.
+                Contacto del cliente: {user_input.strip()}
+                Consulta realizada: "{st.session_state.pending_question}"
+            """
             success = send_whatsapp_message(
                 ADMIN_NUMBER,
-                f"[Ayudín BOT]\nUsuario: {user_input.strip()}\nConsulta: \"{st.session_state.pending_question}\"\n(No pudo ser respondida automáticamente)"
+                wapp_message
             )
             if success:
-                bot_message = "¡Gracias! Un compañero de Ayudín se contactará contigo a la brevedad por WhatsApp."
+                bot_message = "¡Gracias! Un compañero Ayudín se contactará contigo a la brevedad por WhatsApp. ¿Puedo ayudarte con algo más?"
+                # st.session_state.awaiting_whatsapp = False
+                # st.session_state.pending_question = ""
+                # st.session_state.whatsapp_prompt_sent = False
             else:
-                bot_message = "Lo siento, hubo un error enviando tu consulta. Por favor, intenta más tarde o revisa el número."
-            st.session_state.messages.append({"role": "bot", "content": bot_message})
+                bot_message = "Lo siento, hubo un error enviando tu consulta. Por favor, intenta más tarde. ¿Puedo ayudarte con algo más?"
+            
             # Reset state
             st.session_state.awaiting_whatsapp = False
             st.session_state.pending_question = ""
             st.session_state.whatsapp_prompt_sent = False
+            st.session_state.messages.append({"role": "bot", "content": bot_message})
+            st.rerun()
+
         else:
             # Ask again
-            st.session_state.messages.append({"role": "bot", "content": "El número ingresado no es válido. Por favor, usa el formato internacional: +5491123456789"})
+            st.session_state.messages.append({
+                "role": "bot",
+                "content": "El número ingresado no es válido. Por favor, verificalo y usa el formato internacional: +54 9 1123456789"
+            })
     else:
         st.session_state.messages.append({"role": "user", "content": user_input})
-        
         # Llamar al backend y procesar el diccionario de resultados
         result_data = handle_query(user_input, st.session_state.messages)
         response = result_data["answer"]
@@ -179,7 +192,7 @@ if user_input:
             st.session_state.awaiting_whatsapp = True
             st.session_state.pending_question = user_input
             st.session_state.whatsapp_prompt_sent = True
-            st.session_state.messages.append({"role": "bot", "content": "Por favor, deja tu número de WhatsApp (ejemplo: +5491123456789) y derivaré tu consulta a un compañero."})
+            # st.session_state.messages.append({"role": "bot", "content": "Por favor, deja tu número de WhatsApp (ejemplo: +5491123456789)."})
         # Forzar la re-ejecución para que la barra lateral se actualice inmediatamente
         st.rerun()
 
