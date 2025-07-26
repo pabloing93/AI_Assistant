@@ -139,7 +139,9 @@ else:
 
 # Procesar mensaje del usuario
 if user_input:
+    st.session_state.messages.append({"role": "user", "content": user_input})
     if st.session_state.awaiting_whatsapp:
+        
         # Validate WhatsApp number
         if validate_whatsapp_number(user_input.strip()):
             # Send WhatsApp message to admin
@@ -153,6 +155,7 @@ if user_input:
                 wapp_message
             )
             if success:
+
                 bot_message = "¡Gracias! Un compañero Ayudín se contactará contigo a la brevedad por WhatsApp. ¿Puedo ayudarte con algo más?"
                 # st.session_state.awaiting_whatsapp = False
                 # st.session_state.pending_question = ""
@@ -174,7 +177,7 @@ if user_input:
                 "content": "El número ingresado no es válido. Por favor, verificalo y usa el formato internacional: +54 9 1123456789"
             })
     else:
-        st.session_state.messages.append({"role": "user", "content": user_input})
+        # st.session_state.messages.append({"role": "user", "content": user_input})
         # Llamar al backend y procesar el diccionario de resultados
         result_data = handle_query(user_input, st.session_state.messages)
         response = result_data["answer"]
