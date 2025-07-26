@@ -156,7 +156,7 @@ if user_input:
             )
             if success:
 
-                bot_message = "¡Gracias! Un compañero Ayudín se contactará contigo a la brevedad por WhatsApp. ¿Puedo ayudarte con algo más?"
+                bot_message = "¡Gracias! Un compañero Econotodo se contactará contigo a la brevedad por WhatsApp. ¿Puedo ayudarte con algo más?"
                 # st.session_state.awaiting_whatsapp = False
                 # st.session_state.pending_question = ""
                 # st.session_state.whatsapp_prompt_sent = False
