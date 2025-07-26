@@ -12,3 +12,6 @@ config.yaml
 # Otros archivos del sistema
 .DS_Store
 .vscode/
+
+#Testing purpose script
+/app/src.py 

@@ -9,4 +9,6 @@ services:
       - ./app:/rag/app:ro
       - ./data:/rag/data:ro
       - ./vector_store:/rag/vector_store
+      - ./requirements.txt:/rag/requirements.txt
+      - ./config.yaml:/rag/config.yaml
       - /rag/.venv
