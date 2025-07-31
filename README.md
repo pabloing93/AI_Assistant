@@ -34,6 +34,10 @@ Todo desde la comodidad del hogar.
 -   **Embeddings:** OpenAI Embeddings
 -   **Procesamiento de Documentos:** PDFPlumber
 
+## 📊 Diagrama de flujo RAG para Preguntas y Respuestas
+
+<img width="2804" height="1579" alt="image" src="https://github.com/user-attachments/assets/ae33626b-c03d-4908-8bb5-b1863c835304" />
+
 ## 📁 Estructura del Proyecto
 
 ```
